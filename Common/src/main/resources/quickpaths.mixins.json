@@ -1,9 +1,8 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.quickpaths.forge.mixin",
+  "package": "com.natamus.quickpaths.mixin",
   "compatibilityLevel": "JAVA_17",
-  "refmap": "quickpaths_forge.refmap.json",
   "mixins": [
 
   ],

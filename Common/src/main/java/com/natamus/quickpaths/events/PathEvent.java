@@ -3,7 +3,7 @@ package com.natamus.quickpaths.events;
 import com.mojang.datafixers.util.Pair;
 import com.natamus.collective.functions.BlockFunctions;
 import com.natamus.collective.functions.NumberFunctions;
-import com.natamus.collective.functions.StringFunctions;
+import com.natamus.collective.functions.MessageFunctions;
 import com.natamus.collective.services.Services;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
@@ -84,7 +84,7 @@ public class PathEvent {
 				}
 				
 				lastpath.remove(targetpos);
-				StringFunctions.sendMessage(player, "[Quick Paths] " + count + " grass blocks restored.", ChatFormatting.DARK_GREEN);
+				MessageFunctions.sendMessage(player, "[Quick Paths] " + count + " grass blocks restored.", ChatFormatting.DARK_GREEN);
 				return false;
 			}
 		}
@@ -93,7 +93,7 @@ public class PathEvent {
 		}
 		
 		if (handstack.getDamageValue() >= handstack.getMaxDamage()-1 && player.isCrouching()) {
-			StringFunctions.sendMessage(player, "[Quick Paths] Your shovel is too damaged to create paths.", ChatFormatting.RED);
+			MessageFunctions.sendMessage(player, "[Quick Paths] Your shovel is too damaged to create paths.", ChatFormatting.RED);
 			return false;
 		}
 		
@@ -156,7 +156,7 @@ public class PathEvent {
 			
 			lastpath.put(targetpos, new Pair<>(now, pathpositions));
 			playernamelastpos.remove(playername);
-			StringFunctions.sendMessage(player, "[Quick Paths] Path of " + pathpositions.size() + " blocks created. To undo, right click last clicked block again.", ChatFormatting.DARK_GREEN);
+			MessageFunctions.sendMessage(player, "[Quick Paths] Path of " + pathpositions.size() + " blocks created. To undo, right click last clicked block again.", ChatFormatting.DARK_GREEN);
 		}
 		else {
 			if (!player.isCrouching()) {
@@ -175,7 +175,7 @@ public class PathEvent {
 				}
 			}
 			playernamelastpos.put(playername, targetpos);
-			StringFunctions.sendMessage(player, "[Quick Paths] Starting point set to " + targetpos.getX() + ", " + targetpos.getY() + ", " + targetpos.getZ() + ".", ChatFormatting.DARK_GREEN);
+			MessageFunctions.sendMessage(player, "[Quick Paths] Starting point set to " + targetpos.getX() + ", " + targetpos.getY() + ", " + targetpos.getZ() + ".", ChatFormatting.DARK_GREEN);
 			return false;
 		}
 		
