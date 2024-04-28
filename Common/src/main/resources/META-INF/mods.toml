@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="quickpaths"
-version="3.3"
+version="3.4"
 displayName="Quick Paths"
 displayURL="https://serilum.com/mod/quick-paths"
 authors="Rick South"
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.quickpaths]]
     modId="collective"
     mandatory=true
-    versionRange="[7.53,)"
+    versionRange="[7.54,)"
     ordering="NONE"
     side="BOTH"
 
