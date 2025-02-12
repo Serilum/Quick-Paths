@@ -5,12 +5,10 @@ import net.minecraftforge.event.TickEvent.Phase;
 import net.minecraftforge.event.TickEvent.ServerTickEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
-@EventBusSubscriber
 public class ForgePathEvent {
 	@SubscribeEvent
-	public void onServerTick(ServerTickEvent e) {
+	public static void onServerTick(ServerTickEvent e) {
 		if (!e.phase.equals(Phase.END)) {
 			return;
 		}
@@ -19,7 +17,7 @@ public class ForgePathEvent {
 	}
 	
 	@SubscribeEvent
-	public void onRightClickGrass(PlayerInteractEvent.RightClickBlock e) {
+	public static void onRightClickGrass(PlayerInteractEvent.RightClickBlock e) {
 		if (!PathEvent.onRightClickGrass(e.getLevel(), e.getEntity(), e.getHand(), e.getPos(), e.getHitVec())) {
 			e.setCanceled(true);
 		}
