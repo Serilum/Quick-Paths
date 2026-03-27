@@ -12,15 +12,15 @@
 <p style="text-align:center"><a href="https://curseforge.com/members/serilum/projects" target="_blank" rel="nofollow"><img src="https://workflow.serilum.com/badges/svg/curseforge.svg" width="200"></a> <a href="https://modrinth.com/user/Serilum" target="_blank" rel="nofollow"><img src="https://workflow.serilum.com/badges/svg/modrinth.svg" width="200"></a> <a href="https://patreon.com/serilum" target="_blank" rel="nofollow"><img src="https://workflow.serilum.com/badges/svg/patreon.svg" width="200"></a> <a href="https://youtube.com/@serilum" target="_blank" rel="nofollow"><img src="https://workflow.serilum.com/badges/svg/youtube.svg" width="200"></a></p>
 <p><strong><span style="font-size:24px">Requires the library mod&nbsp;<a style="font-size:24px" href="https://curseforge.com/minecraft/mc-mods/collective" target="_blank" rel="nofollow">Collective</a>.</span></strong><br><br><strong>&nbsp;&nbsp;&nbsp;This mod is part of <span style="color:#008000"><a style="color:#008000" href="https://curseforge.com/minecraft/modpacks/the-vanilla-experience" target="_blank" rel="nofollow">The Vanilla Experience</a></span> modpack and <span style="color:#bf8f6f"><a style="color:#bf8f6f" href="https://curseforge.com/minecraft/mc-mods/serilums-qol-bundle" target="_blank" rel="nofollow">Serilum's Quality of Life Bundle</a></span> mod.</strong><br><span style="font-size:18px">Quick Paths is a minimalistic mod which allows players to create long paths instantly by setting a start and end point.</span><br><br><span style="font-size:14px"><em>Crouch + Right-click a grass block to set a starting point.</em></span><br><span style="font-size:14px"><em>Right-click another grass block to finish the path.</em></span><br><span style="font-size:14px"><em>Right-click the last clicked path block to undo the created quick path.</em></span><br><br></p>
 <p>&nbsp;<br><strong>A longer path in action:</strong></p>
-<div class="spoiler">
+<details><summary>Show Spoiler</summary>
 <p><picture><img src="https://cdn.serilum.com/projects/quick-paths/a.webp" alt="gif2" width="1000" height="532"></picture></p>
-</div>
+</details>
 <p>&nbsp;<br><strong>Crouch + right-click a block with a shovel to set the starting point. Right click any other block with the shovel to finish the path:</strong></p>
-<div class="spoiler">
+<details><summary>Show Spoiler</summary>
 <p><picture><img src="https://cdn.serilum.com/projects/quick-paths/b.webp" alt="gif0" width="1000" height="530"></picture></p>
-</div>
+</details>
 <p>&nbsp;<br><strong>You can right click the last path block to undo the created quick path:</strong></p>
-<div class="spoiler">
+<details><summary>Show Spoiler</summary>
 <p><picture><img src="https://cdn.serilum.com/projects/quick-paths/c.webp" alt="gif1" width="1000" height="534"></picture></p>
-</div>
+</details>
 <p><br>------------------<br><br><span style="font-size:24px"><strong>You may freely use this mod in any modpack, as long as the download remains hosted within the CurseForge or Modrinth ecosystem.</strong></span><br><br><span style="font-size:18px"><a style="font-size:18px;color:#008000" href="https://serilum.com/" rel="nofollow">Serilum.com</a> contains an overview and more information on all mods available.</span><br><br><span style="font-size:14px">Comments are disabled as I'm unable to keep track of all the separate pages on each mod.</span><span style="font-size:14px"><br>For issues, ideas, suggestions or anything else there is the&nbsp;<a style="font-size:14px;color:#008000" href="https://github.com/Serilum/.issue-tracker" rel="nofollow">Github repo</a>. Thanks!</span><span style="font-size:6px"><br><br></span></p>
