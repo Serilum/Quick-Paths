@@ -1,4 +1,5 @@
 package com.natamus.quickpaths.events;
+import com.natamus.quickpaths.util.Reference;
 
 import com.mojang.datafixers.util.Pair;
 import com.natamus.collective.functions.BlockFunctions;
@@ -85,7 +86,7 @@ public class PathEvent {
 				}
 				
 				lastpath.remove(targetpos);
-				MessageFunctions.sendMessage(player, "[Quick Paths] " + count + " grass blocks restored.", ChatFormatting.DARK_GREEN);
+				MessageFunctions.sendTranslatableMessage(player, "[" + Reference.NAME + "] ", "collective.quickpaths.message.grassblocksrestored", ChatFormatting.DARK_GREEN, count);
 				return false;
 			}
 		}
@@ -94,7 +95,7 @@ public class PathEvent {
 		}
 		
 		if (handstack.getDamageValue() >= handstack.getMaxDamage()-1 && player.isCrouching()) {
-			MessageFunctions.sendMessage(player, "[Quick Paths] Your shovel is too damaged to create paths.", ChatFormatting.RED);
+			MessageFunctions.sendTranslatableMessage(player, "[" + Reference.NAME + "] ", "collective.quickpaths.message.shoveltoodamaged", ChatFormatting.RED);
 			return false;
 		}
 		
@@ -157,7 +158,7 @@ public class PathEvent {
 			
 			lastpath.put(targetpos, new Pair<>(now, pathpositions));
 			playernamelastpos.remove(playername);
-			MessageFunctions.sendMessage(player, "[Quick Paths] Path of " + pathpositions.size() + " blocks created. To undo, right click last clicked block again.", ChatFormatting.DARK_GREEN);
+			MessageFunctions.sendTranslatableMessage(player, "[" + Reference.NAME + "] ", "collective.quickpaths.message.pathblockscreated", ChatFormatting.DARK_GREEN, pathpositions.size());
 		}
 		else {
 			if (!player.isCrouching()) {
@@ -176,7 +177,7 @@ public class PathEvent {
 				}
 			}
 			playernamelastpos.put(playername, targetpos);
-			MessageFunctions.sendMessage(player, "[Quick Paths] Starting point set to " + targetpos.getX() + ", " + targetpos.getY() + ", " + targetpos.getZ() + ".", ChatFormatting.DARK_GREEN);
+			MessageFunctions.sendTranslatableMessage(player, "[" + Reference.NAME + "] ", "collective.quickpaths.message.startingpointset", ChatFormatting.DARK_GREEN, targetpos.getX(), targetpos.getY(), targetpos.getZ());
 			return false;
 		}
 		

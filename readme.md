@@ -1,5 +1,5 @@
 <h2>Quick Paths</h2>
-<p><a href="https://github.com/Serilum/Quick-Paths"><img src="https://serilum.com/assets/data/logo/quick-paths.png"></a></p><h2>Download</h2>
+<p><a href="https://github.com/Serilum/Quick-Paths"><img src="https://serilum.com/assets/images/logo/quick-paths.png"></a></p><h2>Download</h2>
 <p>You can download Quick Paths on CurseForge and Modrinth:</p><p>&nbsp;&nbsp;CurseForge: &nbsp;&nbsp;<a href="https://curseforge.com/minecraft/mc-mods/quick-paths">https://curseforge.com/minecraft/mc-mods/quick-paths</a><br>&nbsp;&nbsp;Modrinth: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://modrinth.com/mod/quick-paths">https://modrinth.com/mod/quick-paths</a></p>
 <h2>Issue Tracker</h2>
 <p>To keep a better overview of all mods, the issue tracker is located in a separate repository.<br>&nbsp;&nbsp;For issues, ideas, suggestions or anything else, please follow this link:</p>
