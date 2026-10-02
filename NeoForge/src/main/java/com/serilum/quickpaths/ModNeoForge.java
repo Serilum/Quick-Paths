@@ -1,9 +1,9 @@
-package com.natamus.quickpaths;
+package com.serilum.quickpaths;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.quickpaths.neoforge.events.NeoForgePathEvent;
-import com.natamus.quickpaths.util.Reference;
+import com.serilum.quickpaths.neoforge.events.NeoForgePathEvent;
+import com.serilum.quickpaths.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;

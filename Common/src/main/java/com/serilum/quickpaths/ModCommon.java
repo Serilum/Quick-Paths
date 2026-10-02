@@ -1,4 +1,4 @@
-package com.natamus.quickpaths;
+package com.serilum.quickpaths;
 
 
 public class ModCommon {
