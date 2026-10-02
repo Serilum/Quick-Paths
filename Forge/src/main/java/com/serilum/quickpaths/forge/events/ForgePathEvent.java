@@ -1,6 +1,6 @@
-package com.natamus.quickpaths.forge.events;
+package com.serilum.quickpaths.forge.events;
 
-import com.natamus.quickpaths.events.PathEvent;
+import com.serilum.quickpaths.events.PathEvent;
 import net.minecraftforge.event.TickEvent.ServerTickEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.bus.BusGroup;

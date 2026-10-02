@@ -1,6 +1,6 @@
-package com.natamus.quickpaths.neoforge.events;
+package com.serilum.quickpaths.neoforge.events;
 
-import com.natamus.quickpaths.events.PathEvent;
+import com.serilum.quickpaths.events.PathEvent;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.neoforge.event.tick.ServerTickEvent;

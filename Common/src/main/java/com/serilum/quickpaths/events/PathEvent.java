@@ -1,5 +1,5 @@
-package com.natamus.quickpaths.events;
-import com.natamus.quickpaths.util.Reference;
+package com.serilum.quickpaths.events;
+import com.serilum.quickpaths.util.Reference;
 
 import com.mojang.datafixers.util.Pair;
 import com.natamus.collective.functions.BlockFunctions;

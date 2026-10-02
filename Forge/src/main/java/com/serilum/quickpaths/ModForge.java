@@ -1,9 +1,9 @@
-package com.natamus.quickpaths;
+package com.serilum.quickpaths;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.quickpaths.forge.events.ForgePathEvent;
-import com.natamus.quickpaths.util.Reference;
+import com.serilum.quickpaths.forge.events.ForgePathEvent;
+import com.serilum.quickpaths.util.Reference;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
@@ -27,7 +27,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	ForgePathEvent.registerEventsInBus();
+		ForgePathEvent.registerEventsInBus();
 	}
 
 	private static void setGlobalConstants() {
